@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
     display: flex;
     min-height: 100vh;
@@ -11,17 +12,20 @@ body {
     flex-direction: column;
     background-color: #333;
     font-family: Arial, Helvetica, sans-serif;
+    /* commit */
 }
 
 h1 {
     color: #FFF;
     margin-bottom: 20px;
 }
+
 .keys {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
 }
+
 .key {
     width: 80px;
     height: 80px;
@@ -33,6 +37,7 @@ h1 {
     font-size: 30px;
     font-weight: bold;
 }
+
 .key.active {
     border: 2px solid #FF0;
     color: #FF0;
@@ -42,12 +47,14 @@ h1 {
     width: 260px;
     margin-top: 20px;
 }
+
 .composer #input {
     width: 100%;
     outline: none;
     font-size: 17px;
     padding: 10px 15px;
 }
+
 .composer button {
     width: 100%;
     height: 40px;
@@ -58,6 +65,7 @@ h1 {
     margin-top: 10px;
     cursor: pointer;
 }
+
 .composer button:hover {
     background-color: rgba(0, 0, 0, 0.2);
 }
@@ -69,7 +77,7 @@ footer {
     font-size: 16px;
 }
 
-footer a{
+footer a {
     text-decoration: none;
     color: white;
 }
